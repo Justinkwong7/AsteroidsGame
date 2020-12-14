@@ -1,3 +1,17 @@
+Spaceship bob = new Spaceship();
+Star[] sal = new Star[100];
+ArrayList <Asteroids> joe = new ArrayList <Asteroids>();
+public void setup()
+{
+  size(500,500);
+  for(int i = 0; i < sal.length; i++){
+    sal[i] = new Star();
+  }
+  for(int i = 0; i < 9; i++){
+    joe.add(new Asteroids());
+  }
+}
+
 public void draw()
 {
   background(0);
