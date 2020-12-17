@@ -63,4 +63,6 @@ ArrayList <Integer> rocks = new ArrayList <Integer>();
    myYspeed = speed2;
    myPointDirection = direction;
   }
+  public double getX(){return myCenterX;}
+  public double getY(){return myCenterY;}
 }
