@@ -49,6 +49,6 @@ public void keyPressed()
     bob.accelerate(0.5);
   else if (key == 's')
     bob.hyper();
-  else if (key == ' ')
+  else if (key == 'e')
     shots.add(new Bullet(bob));
 }
